@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Steganografi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="appbar">
+      <h3>KEAMANAN INFORMASI</h3>
+    </div>
+    <div class="main-content">
+        <div class="heading-container" style="text-align: center">
+          <h2>Steganografi</h2>
+          <h2>Steganografi</h2>
+          <h5>Restu Febriansyah (227006093)</h5>
+        </div>
+        <div class="container">
+    <div class="container">
+      <h1>Steganografi</h1>
+      <input type="file" id="coverImage" accept="image/*" />
+      <textarea
+        id="message"
+        placeholder="Masukkan pesan yang ingin disembunyikan"
+      ></textarea>
+      <button id="encodeButton">Sisipkan Pesan</button>
+      <canvas id="canvas" style="display: none"></canvas>
+      <div id="result">
+        <h2>Gambar dengan Pesan Tersisip</h2>
+        <img id="encodedImage" alt="Hasil Gambar" />
+      </div>
+      <h2>Decode Pesan</h2>
+      <input type="file" id="encodedImageInput" accept="image/*" />
+      <button id="decodeButton">Ambil Pesan</button>
+      <textarea
+        id="decodedMessage"
+        placeholder="Pesan yang disisipkan akan muncul di sini"
+        readonly
+      ></textarea>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

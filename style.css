@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #1a9650;
+}
+
+.appbar {
+  background-color: #212221;
+  color: #ffffff;
+  padding: 2px 2px;
+  position: fixed;
+  /* Mengatur posisi menjadi tetap */
+  top: 0;
+  /* Meletakkan appbar di bagian atas */
+  left: 100;
+  width: 100%;
+  /* Lebarkan appbar secara penuh */
+  z-index: 100;
+  /* Mengatur urutan tampilan */
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+main {
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#encodedImage {
+  max-width: 100%;
+  height: auto;
+}
